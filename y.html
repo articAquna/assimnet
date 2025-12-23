@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    *{
+        margin : 0px;
+        padding :0px;
+        box-sizing :border-box;
+
+    }
+    body,html{
+        height : 100%;
+        padding-bottom : 3500px;
+    }
+    header{
+        top : 0;
+        position : fixed;
+        width : 100px;
+        height : 100%;
+        background : rgba(241, 120, 120,0.5);
+        display : flex;
+        align-items: center;
+
+    }
+    header p{
+        font-size : 200%;
+        transform : rotate(270deg);
+    }
+    #front{
+        display :flex;
+        flex-direction : column;
+        gap : 20px;
+        margin-top : 200px;
+        margin-right : 20px;
+        text-align : center;
+         position : relative;
+            
+    }
+    img:hover{
+       transform : scale(1.2)  rotate(360deg) ;border-radius : 0%;
+        
+    }
+    img{
+        transition : all 3s ease 0.5s;
+        width : 34%;
+        height : auto;
+        border-radius : 50%;
+        z-index : 2;
+        flex-shrink : 0;
+      
+    }
+    main{
+
+        margin-left:120px;
+        display : flex;
+        flex-direction : column;
+        gap : 20px;
+    }
+    #s{
+        width : 25%;
+        object-fit :cover;
+        border-radius : 50%;
+        box-shadow : 0px 0px 10px 5px rgb(10, 10, 10);
+
+    }
+    .all{
+        display : flex;
+        flex-direction :row;
+        justify-content : space-evenly;
+        
+        gap:10px;
+        
+    }
+    .all div{
+        display : flex;
+        align-items :center;
+    }
+    h1{
+        position : sticky;
+        top : 0px;
+       text-align : end;
+        margin-right : 25px;
+        text-decoration : underline;
+        text-transform : uppercase;
+        border : 2px solid white;
+    }
+    .W{
+        padding-top : 50px;
+        padding-bottom : 50px;
+        
+        margin-right : 20px;
+        display :flex;
+        flex-direction : column;
+        gap : 25px;
+        position : relative;
+    }
+    #cont{
+        width : 100%;
+        height : 150px;
+        background : black;
+        position : fixed;
+        top : 250px;
+        z-index : -1;
+        box-shadow : 0px 0px 10px 5px rgb(190, 10, 10);
+    }
+    p{
+        color : white;
+    }
+    #m{
+        position : absolute;
+        top : 0px;
+        left : 0px;
+        bottom : 0px;
+        right : 0%;
+        background :rgb(190, 10, 10);
+        opacity : 0.5;
+        z-index : -1;
+    }
+    #green{
+        position : absolute;
+        top : 0px;
+        bottom : 0px;
+        left : 0px;
+        right : 0px;
+        background : rgba(97, 49, 106, 0.5);
+
+    }
+   
+    p{
+        word-wrap : break-word;
+        max-width : 200px;
+        font-weight : bold;
+        font-size : 28px;
+    }
+    h1:hover{
+        background : red;
+    }
+</style>
+
+
+
+
+<body>
+    <div id ="cont">
+
+    </div>
+
+    <header>
+        <p>Ahsan</p>
+    </header>
+
+    <main>
+        <section >
+            
+            <div id="front">
+                <div id = "m"></div>
+                <h1>ict assigment</h1>
+                <div><a href="https://www.istockphoto.com/photo/night-scene-with-the-milky-way-reflecting-on-a-pond-space-view-of-the-milky-way-with-gm2207426275-624664753?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fnature&utm_term=nature%3A%3A%3A%3Ab82afb56-2197-4196-9ef0-abdd994d047f" target="_blank"> <img src="122.jpg"></a> </div>
+                <p style="text-align : center; max-width : none;">
+
+                    SIMPLE ART GALARY DISPLAY
+                </p>
+                <br>
+            
+        
+            </div>
+        </section>
+        <br>
+                   
+
+        <section>
+
+            <h1 id="pop">information</h1>
+            
+            <br>
+            <div class="W">
+                <div id ="green"></div>
+                <div class="all">
+                    <div><p>massive structrure 
+                       <br> composed of steel and reinforced concrete
+                    </p></div>
+                    <img src="122.jpg" id="s">
+                    
+
+
+                </div>
+
+                 <div class="all">
+                    <div><p>vast tranquall sea bursting with energy foam sound of caous</p></div>
+                    <img src="ni.jpg" id="s">
+                    
+
+
+                </div>
+
+
+                    <div class="all">
+                    <div><p>green temple forent sound of calmness and energy</p></div>
+                    <img src="h.jpg" id="s">
+                    
+
+
+                </div>
+                
+
+                    <div class="all">
+                    <div><p>mathematical beast of the water with precise enginnering draws the most furious of fishes</p></div>
+                    <img src="012.jpg" id="s">
+                    
+
+
+                </div>
+                
+                
+                
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+
+    
+</body>
+</html>
